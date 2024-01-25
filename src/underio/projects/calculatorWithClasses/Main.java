@@ -17,7 +17,6 @@ public class Main {
         operator subtraction = new operator("-");
         
         System.out.println("Welcome to the calculator with classes!");
-        input.getInput;
         
     }
 }
