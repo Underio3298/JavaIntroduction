@@ -1,10 +1,10 @@
 package underio.projects.calculatorWithClasses;
 
 public class operator {
-    public String operation;
+    public String type;
 
-    public operator(String operation) {
-        this.operation = operation;
+    public operator(String type) {
+        this.type = type;
     }
 
 }

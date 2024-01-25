@@ -13,5 +13,7 @@ public class Main {
     public static void main(String[] args) {
         operator multiplication = new operator("x");
         operator division = new operator("/");
+        operator addition = new operator("+");
+        operator subtraction = new operator("-");
     }
 }
