@@ -1,4 +1,7 @@
 package underio.projects.calculatorWithClasses;
+
+import java.util.Scanner;
+
 // TODO: figure out how the hell to do this
 public class Main {
     /* EXERCISE 3 - Calculator with Classes
@@ -11,12 +14,24 @@ public class Main {
      *
      */
     public static void main(String[] args) {
-        operator multiplication = new operator("x");
+        boolean askIfContinueBoolean = true; 
+        Scanner scanner = new Scanner(System.in);
+        operator multiplication = new operator("*");
         operator division = new operator("/");
         operator addition = new operator("+");
         operator subtraction = new operator("-");
         
         System.out.println("Welcome to the calculator with classes!");
-        
+
+        while (askIfContinueBoolean == true) {
+            input.getInput();
+            calculator.calculate();
+            System.out.println("Would you like to calculate something else?");
+            String askIfContinueInput = scanner.nextLine();
+            switch (askIfContinueInput) {
+                case "yes", "y": askIfContinueBoolean = true; break;
+                case "no", "n": askIfContinueBoolean = false; break;
+            }
+        }
     }
 }
