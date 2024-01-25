@@ -15,5 +15,9 @@ public class Main {
         operator division = new operator("/");
         operator addition = new operator("+");
         operator subtraction = new operator("-");
+        
+        System.out.println("Welcome to the calculator with classes!");
+        input.getInput;
+        
     }
 }
