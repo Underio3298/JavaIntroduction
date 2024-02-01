@@ -2,7 +2,6 @@ package underio.projects.calculatorWithClasses;
 
 import java.util.Scanner;
 
-// TODO: figure out how the hell to do this
 public class Main {
     /* EXERCISE 3 - Calculator with Classes
      *
