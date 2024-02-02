@@ -14,8 +14,12 @@ public class calculator {
                 System.out.println(input.num1 + " " + operator.type + " " + input.num2 + " = " + input.num1 / input.num2); break;
                 }
             }
-            case "+": System.out.println(input.num1 + " " + operator.type + " " + input.num2 + " = " + input.num1 + input.num2); break;
-            // goofy ahh minus exception
+            // goofy plus thing
+            case "+": {
+                int plusAnswer = input.num1 + input.num2;
+                System.out.println(input.num1 + " " + operator.type + " " + input.num2 + " = " + plusAnswer); break;
+            }
+                // goofy ahh minus exception
             case "-": {
                 int minusAnswer = input.num1 - input.num2;
                 System.out.println(input.num1 + " " + operator.type + " " + input.num2 + " = " + minusAnswer); break;
