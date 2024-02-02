@@ -1,4 +1,4 @@
-package underio;
+package underio.singles;
 
 import java.util.*;
 
