@@ -4,7 +4,7 @@
  * @author Underio
  * @version 1.0
  */
-package underio.complex;
+package underio.complex.more;
 
 public abstract class Animal {
 
