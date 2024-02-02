@@ -1,6 +1,6 @@
 package underio.complex.enum1;
 
-public enum ToolMaterial {
+public enum ToolMaterial {;
     
     private String displayName;
     private int durability;
