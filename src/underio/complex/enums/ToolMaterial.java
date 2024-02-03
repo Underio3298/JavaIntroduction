@@ -1,4 +1,4 @@
-package underio.complex.enum1;
+package underio.complex.enums;
 
 public enum ToolMaterial {
     // ADVANCED ENUM

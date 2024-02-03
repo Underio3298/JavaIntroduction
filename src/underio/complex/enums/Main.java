@@ -1,6 +1,4 @@
-package underio.complex.enum1;
-
-import javax.tools.Tool;
+package underio.complex.enums;
 
 public class Main {
     public static void main(String[] args) {
