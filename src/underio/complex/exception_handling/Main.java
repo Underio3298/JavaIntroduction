@@ -1,4 +1,4 @@
-package underio.complex.exceptionhandling;
+package underio.complex.exception_handling;
 
 public class Main {
     public static void main(String[] args) throws Exception {
