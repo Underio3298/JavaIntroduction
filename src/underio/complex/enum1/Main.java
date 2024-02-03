@@ -1,5 +1,7 @@
 package underio.complex.enum1;
 
+import javax.tools.Tool;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -8,7 +10,11 @@ public class Main {
         Difficulty gameDifficulty = Difficulty.MEDIUM;
         System.out.println("Difficulty is " + gameDifficulty);
 
-        
+        ToolMaterial myAxeMaterial = ToolMaterial.STONE;
+        ToolMaterial myShovelMaterial = ToolMaterial.IRON;
+
+        System.out.println("My axe has " + myAxeMaterial.getDurability() + "durability");
+        System.out.println("My shovel has " + myShovelMaterial.getMiningSpeed() + " mining speed");
 
     }
 }

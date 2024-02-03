@@ -1,6 +1,11 @@
 package underio.complex.enum1;
 
-public enum ToolMaterial {;
+public enum ToolMaterial {
+    // ADVANCED ENUM
+    WOOD("Wood", 1, 0.3f),
+    STONE("Stone", 4, 1.5f),
+    IRON("Iron", 7, 2.75f);
+
     
     private String displayName;
     private int durability;
